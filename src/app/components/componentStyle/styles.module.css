@@ -1,0 +1,203 @@
+.permasa {
+  width: 1225px;
+  height: 605px;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.inputdiv {
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  left: 70px;
+  top: 40px;
+  border: 1px grey solid;
+  border-radius: 5px;
+}
+.inputplace {
+  height: 38px;
+  margin-left: 5px;
+  width: 600px;
+}
+.inputplace:focus {
+  outline: none;
+  border: none;
+}
+.buttonCreate {
+  width: 170px;
+  height: 40px;
+  background-color: #12b76a;
+  position: absolute;
+  left: 800px;
+  top: 40px;
+  border-radius: 5px;
+  color: white;
+}
+
+.treButtons {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+}
+.allButton {
+  width: 80px;
+  border: 1px grey solid;
+  height: 35px;
+  background-color: white;
+  border-radius: 5px;
+}
+.Completed {
+  width: 140px;
+  border: 1px grey solid;
+  height: 35px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.Incompleted {
+  width: 140px;
+  border: 1px grey solid;
+  height: 35px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+/* YourComponent.module.css */
+.body {
+  position: absolute;
+  top: 150px;
+  width: 1200px;
+  height: 420px;
+
+  overflow: auto;
+}
+.youdonthavetask {
+  position: absolute;
+  font-size: 25px;
+  color: black;
+  top: 50px;
+  left: 475px;
+}
+.circle {
+  width: 120px;
+  height: 120px;
+  color: white;
+  border: 3px grey solid;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 100px;
+  left: 550px;
+}
+.plusadd {
+  color: grey;
+  width: 55px;
+  height: 55px;
+}
+.createTask {
+  font-size: 25px;
+  color: gray;
+  position: absolute;
+  top: 250px;
+  left: 540px;
+}
+
+.tasksData {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+.TaskDiv {
+  width: 620px;
+  height: 50px;
+  border: 1px black solid;
+  margin-left: 70px;
+  margin-bottom: -40px;
+  border-radius: 5px;
+}
+
+.circletask {
+  width: 28px;
+  height: 28px;
+  color: white;
+  border: 1px black solid;
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.checkTask {
+  position: relative;
+  top: -15px;
+  left: 27px;
+}
+.TAskname {
+  position: relative;
+  top: -40px;
+  left: 62px;
+}
+.Editbutton {
+  background-color: rgb(244, 244, 244);
+  border: 1px rgb(178, 178, 178) solid;
+  height: 50px;
+  width: 150px;
+  position: relative;
+  top: -20px;
+  left: 710px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.deleteButton {
+  width: 85px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  top: -20px;
+  left: 730px;
+  border-radius: 5px;
+}
+.shadow {
+  width: 1300px;
+  height: 700px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 11;
+  background-color: grey;
+  opacity: 0.5;
+}
+.window {
+  width: 350px;
+  height: 230px;
+  background-color: white;
+  position: fixed;
+  z-index: 25;
+  border-radius: 5px;
+  top: 170px;
+  left: 400px;
+}
+.window2 {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(253, 202, 202);
+  border: 8px rgb(253, 239, 239) solid;
+  border-radius: 50%;
+}
+.closetag {
+  position: relative;
+  left: 305px;
+  top: -50px;
+  color: grey;
+  width: 20px;
+  height: 20px;
+}
